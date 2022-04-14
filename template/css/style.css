@@ -1,0 +1,100 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+text-align: center;
+background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1), rgba(148,187,233,1));
+font: 1.1rem;
+font-family: 'Gill Sans', 'Gill Sas MT', Calibri;
+color: #2a3749;
+  
+}
+
+button {
+  border: none;
+  background: #557eaf;
+  padding: 0.6em 1.5em;
+  color: white;
+  border-radius: 0.3em;
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+  
+input {
+  width: 200px;
+  background: #e5e5e5;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0.5em 0.5em;
+}
+  
+
+img {
+ max-height: 20rem;
+}
+
+h1 {
+  margin: 1.5rem 0;
+}
+
+h2 {
+  margin-bottom: 
+}
+
+table {
+  margin: 1rem auto;
+}
+
+table, th, td {
+  border: 1px solid #ac768e;
+  border-radius: 0.2rem;
+}
+
+
